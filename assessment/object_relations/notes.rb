@@ -21,3 +21,8 @@
   # Restaurant#reviews
   # Restaurant#customers
     # should return all of the customers who have written reviews.
+
+me = Customer.new("Devin")
+parm = Restaurant.new("LaParm")
+me.add_review("best pizza", "LaParm")
+me.add_review("best bagels", "Bagel Pub")
