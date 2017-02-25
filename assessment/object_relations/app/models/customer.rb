@@ -20,6 +20,7 @@ class Customer
   end
 
   def add_review(thoughts, restaurant_name)
+#     pass through the restaurnat object instead of the restaurant name
     review = Review.new(thoughts, restaurant_name)
     review.customer = self
     review.restaurant.customers << self
