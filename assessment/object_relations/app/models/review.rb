@@ -5,6 +5,7 @@ class Review
   @@all = []
 
   def initialize(thoughts, restaurant_name)
+#     this is nice
     @thoughts = thoughts
     if Restaurant.find_by_name(restaurant_name)
       @restaurant = Restaurant.find_by_name(restaurant_name)
